@@ -10,6 +10,8 @@ import UIKit
 
 @objc(ViewController) class ViewController: UITableViewController {
     
+    var selectedRow = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -57,9 +59,15 @@ import UIKit
     
     override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
         tableView.deselectRowAtIndexPath(indexPath, animated: false)
+        selectedRow = indexPath.row
         var currentToDoItem: ToDoItem = toDoItemList.toDoItems[indexPath.row]
-        toDoItemList.toggleComplete(indexPath.row)
-        tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.None)
+        // toDoItemList.toggleComplete(indexPath.row)
+        // tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.None)
+        
+        let viewItemViewController = storyboard.instantiateViewControllerWithIdentifier("ViewItemViewController") as ViewItemViewController
+        viewItemViewController.setCurrentToDoItem(toDoItemList.toDoItems[selectedRow])
+        navigationController.pushViewController(viewItemViewController, animated: true)
+
         
     }
     

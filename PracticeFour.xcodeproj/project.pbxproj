@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B624AB7B19554D4400C0E74B /* ViewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624AB7A19554D4400C0E74B /* ViewItemViewController.swift */; };
 		B6812DEE1948BA600020ED78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6812DED1948BA600020ED78 /* AppDelegate.swift */; };
 		B6812DF11948BA600020ED78 /* PracticeFour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6812DEF1948BA600020ED78 /* PracticeFour.xcdatamodeld */; };
 		B6812DF31948BA600020ED78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6812DF21948BA600020ED78 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		B6812E041948BA600020ED78 /* PracticeFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6812E031948BA600020ED78 /* PracticeFourTests.swift */; };
 		B6812E0E1948BD300020ED78 /* AddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6812E0D1948BD300020ED78 /* AddToDoItemViewController.swift */; };
 		B6A72409194A0F4600F051EB /* ToDoItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A72408194A0F4600F051EB /* ToDoItemList.swift */; };
+		B6ABA13719555DA4003A5B3F /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABA13619555DA4003A5B3F /* EditItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B61482A919555EF90046A4A4 /* ViewItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewItemViewController.h; sourceTree = "<group>"; };
+		B624AB7A19554D4400C0E74B /* ViewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewItemViewController.swift; sourceTree = "<group>"; };
 		B6812DE81948BA600020ED78 /* PracticeFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6812DEC1948BA600020ED78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6812DED1948BA600020ED78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,7 @@
 		B6812E0D1948BD300020ED78 /* AddToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoItemViewController.swift; sourceTree = "<group>"; };
 		B6A72405194A0C6600F051EB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B6A72408194A0F4600F051EB /* ToDoItemList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemList.swift; sourceTree = "<group>"; };
+		B6ABA13619555DA4003A5B3F /* EditItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +91,11 @@
 				B6812DF21948BA600020ED78 /* ViewController.swift */,
 				B6A72408194A0F4600F051EB /* ToDoItemList.swift */,
 				B6A72405194A0C6600F051EB /* ViewController.h */,
+				B61482A919555EF90046A4A4 /* ViewItemViewController.h */,
 				B6812DF41948BA600020ED78 /* Main.storyboard */,
+				B6ABA13619555DA4003A5B3F /* EditItemViewController.swift */,
 				B6812DF71948BA600020ED78 /* Images.xcassets */,
+				B624AB7A19554D4400C0E74B /* ViewItemViewController.swift */,
 				B6812E0D1948BD300020ED78 /* AddToDoItemViewController.swift */,
 				B6812DEF1948BA600020ED78 /* PracticeFour.xcdatamodeld */,
 				B6812DEB1948BA600020ED78 /* Supporting Files */,
@@ -220,7 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6812DF31948BA600020ED78 /* ViewController.swift in Sources */,
+				B6ABA13719555DA4003A5B3F /* EditItemViewController.swift in Sources */,
 				B6812DF11948BA600020ED78 /* PracticeFour.xcdatamodeld in Sources */,
+				B624AB7B19554D4400C0E74B /* ViewItemViewController.swift in Sources */,
 				B6812DEE1948BA600020ED78 /* AppDelegate.swift in Sources */,
 				B6812E0E1948BD300020ED78 /* AddToDoItemViewController.swift in Sources */,
 				B6A72409194A0F4600F051EB /* ToDoItemList.swift in Sources */,
